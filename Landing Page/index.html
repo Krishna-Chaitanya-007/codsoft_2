@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      href="assets/images/Cattie-Regular.ttf"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    </style>
+  </head>
+
+  <body style="margin: 0; padding: 0;">
+    <div style="position: fixed; top: 0; width: 100%; background-color: white; z-index: 1000; display: flex; justify-content: center; border-bottom: 1px solid #ddd;">
+      <header style="width: 100%; max-width: 1200px; display: flex; justify-content: space-between; align-items: center; padding: 1rem;">
+        <a href="/" style="display: flex; align-items: center; text-decoration: none;">
+          <img id="kitty" src="assets/images/images (1).png" width="50" height="50" alt="Kitty Logo" />
+          <span><h2>ᔕᑭᗩᑕE  𝖪𝖨ΤΤ𝖸</h2></span> 
+        </a>
+        
+        <ul style="list-style: none; margin: 0; padding: 0; display: flex;">
+          <li style="margin-right: 1rem;">
+            <a href="#" style="text-decoration: none; color: black; padding: 0.5rem 1rem;">Home</a>
+          </li>
+          <li style="margin-right: 1rem;">
+            <a href="#" style="text-decoration: none; color: black; padding: 0.5rem 1rem;">Features</a>
+          </li>
+          <li style="margin-right: 1rem;">
+            <a href="#" style="text-decoration: none; color: black; padding: 0.5rem 1rem;">Pricing</a>
+          </li>
+          <li style="margin-right: 1rem;">
+            <a href="#" style="text-decoration: none; color: black; padding: 0.5rem 1rem;">FAQs</a>
+          </li>
+          <li>
+            <a href="#" style="text-decoration: none; color: black; padding: 0.5rem 1rem;">About</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+
+
+
+    <!-- Centered Screenshot -->
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold text-body-emphasis">
+        Welcome to Kitty Universe!
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Discover a world of possibilities. Space Kitty offers the best
+          solutions for your needs, bringing innovation and convenience to your
+          fingertips. Join us on a journey to explore features that will elevate
+          your experience.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+            Get Started
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+            Download Now
+          </button>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 100vh">
+        <div class="container px-5">
+          <img
+            src="assets/images/tom-maierle-cat-in-space.jpg"
+            class="img-fluid border rounded-3 shadow-lg mb-4"
+            alt="Example image"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Heroes -->
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+      <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
+            Explore the Galaxy with Space Kitty
+          </h1>
+          <p class="col-lg-10 fs-4">
+            Space Kitty is your ultimate companion for exploring the universe of
+            fun, learning, and adventure. Our platform offers a unique blend of
+            engaging features designed to captivate and educate users of all
+            ages.".
+          </p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+          <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+              />
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me" /> Remember me
+              </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">
+              Sign up
+            </button>
+            <hr class="my-4" />
+            <small class="text-body-secondary"
+              >By clicking Sign up, you agree to the terms of use.</small
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- features -->
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom">Features</h2>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 text-shadow-1 pic"
+            style="
+              background-image: url('assets/images/there-is-cat-wearing-glasses-reading-book-table-generative-ai_902639-52969.jpg');
+            "
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+            >
+              <h3 class="pt-3 mt-5 mb-4 display-6 lh-1 fw-bold text-shadow-1">
+                Galactic Learning
+              </h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img
+                    src="assets/images/there-is-cat-wearing-glasses-reading-book-table-generative-ai_902639-52969.jpg"
+                    alt="Bootstrap"
+                    width="52"
+                    height="52"
+                    class="rounded-circle border border-white pic"
+                  />
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <!-- <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg> -->
+                  <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 16 16"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="#FFFFFF"
+                    class="bi bi-geo-fill"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"
+                    />
+                  </svg>
+                  <small>Earth</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <!-- <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg> -->
+                  <?xml version="1.0" encoding="iso-8859-1"?>
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                  <svg
+                    fill="#FFFFFF"
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 612 612"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M153,114.75h1.592c15.845,0,28.688-12.842,28.688-28.688V76.5V28.688C183.28,12.842,170.437,0,154.592,0H153
+                          c-15.845,0-28.688,12.842-28.688,28.688V76.5v9.562C124.312,101.908,137.155,114.75,153,114.75z"
+                        />
+                        <path
+                          d="M449.438,114.75h1.592c15.846,0,28.688-12.842,28.688-28.688V76.5V28.688C479.717,12.842,466.875,0,451.029,0h-1.592
+                          c-15.845,0-28.688,12.842-28.688,28.688V76.5v9.562C420.75,101.908,433.593,114.75,449.438,114.75z"
+                        />
+                        <path
+                          d="M535.5,76.5h-27.096v9.562c0,31.638-25.737,57.375-57.375,57.375h-1.592c-31.638,0-57.375-25.737-57.375-57.375V76.5
+                          H211.967v9.562c0,31.638-25.738,57.375-57.375,57.375H153c-31.638,0-57.375-25.737-57.375-57.375V76.5H76.5
+                          C34.253,76.5,0,110.753,0,153v382.5C0,577.747,34.253,612,76.5,612h459c42.247,0,76.5-34.253,76.5-76.5V153
+                          C612,110.753,577.747,76.5,535.5,76.5z M573.75,535.5c0,21.104-17.146,38.25-38.25,38.25h-459c-21.085,0-38.25-17.146-38.25-38.25
+                          v-306h535.5V535.5z"
+                        />
+                        <circle cx="153" cy="325.125" r="47.019" />
+                        <circle cx="306" cy="325.125" r="47.019" />
+                        <circle cx="459" cy="325.125" r="47.019" />
+                        <circle cx="153" cy="478.125" r="47.019" />
+                        <circle cx="306" cy="478.125" r="47.019" />
+                        <circle cx="459" cy="478.125" r="47.019" />
+                      </g>
+                    </g>
+                  </svg>
+                  <small>3d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 pic"
+            style="
+              background-image: url('assets/images/il_570xN.5090257466_d1dk.webp');
+            "
+          >
+            <div
+              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 pic"
+            >
+              <h3 class="pt-3 mt-5 mb-4 display-6 lh-1 fw-bold text-shadow-1">
+                Kitty Quests
+              </h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img
+                    src="assets/images/il_570xN.5090257466_d1dk.webp"
+                    alt="Bootstrap"
+                    width="52"
+                    height="52"
+                    class="rounded-circle border border-white pic"
+                  />
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <!-- <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg> -->
+                  <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 16 16"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="#FFFFFF"
+                    class="bi bi-geo-fill"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"
+                    />
+                  </svg>
+                  <small>Milky Way Galaxy</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <!-- <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg> -->
+                  <?xml version="1.0" encoding="iso-8859-1"?>
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                  <svg
+                    fill="#FFFFFF"
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 612 612"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M153,114.75h1.592c15.845,0,28.688-12.842,28.688-28.688V76.5V28.688C183.28,12.842,170.437,0,154.592,0H153
+                        c-15.845,0-28.688,12.842-28.688,28.688V76.5v9.562C124.312,101.908,137.155,114.75,153,114.75z"
+                        />
+                        <path
+                          d="M449.438,114.75h1.592c15.846,0,28.688-12.842,28.688-28.688V76.5V28.688C479.717,12.842,466.875,0,451.029,0h-1.592
+                        c-15.845,0-28.688,12.842-28.688,28.688V76.5v9.562C420.75,101.908,433.593,114.75,449.438,114.75z"
+                        />
+                        <path
+                          d="M535.5,76.5h-27.096v9.562c0,31.638-25.737,57.375-57.375,57.375h-1.592c-31.638,0-57.375-25.737-57.375-57.375V76.5
+                          H211.967v9.562c0,31.638-25.738,57.375-57.375,57.375H153c-31.638,0-57.375-25.737-57.375-57.375V76.5H76.5
+                          C34.253,76.5,0,110.753,0,153v382.5C0,577.747,34.253,612,76.5,612h459c42.247,0,76.5-34.253,76.5-76.5V153
+                          C612,110.753,577.747,76.5,535.5,76.5z M573.75,535.5c0,21.104-17.146,38.25-38.25,38.25h-459c-21.085,0-38.25-17.146-38.25-38.25
+                          v-306h535.5V535.5z"
+                        />
+                        <circle cx="153" cy="325.125" r="47.019" />
+                        <circle cx="306" cy="325.125" r="47.019" />
+                        <circle cx="459" cy="325.125" r="47.019" />
+                        <circle cx="153" cy="478.125" r="47.019" />
+                        <circle cx="306" cy="478.125" r="47.019" />
+                        <circle cx="459" cy="478.125" r="47.019" />
+                      </g>
+                    </g>
+                  </svg>
+                  <small>4d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg pic"
+            style="
+              background-image: url('assets/images/1_UHZNS1lE1Ydz6sXDyf2C2Q5.jpg');
+            "
+          >
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-3 mt-5 mb-4 display-6 lh-1 fw-bold text-shadow-1">
+                Space Store
+              </h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img
+                    src="assets/images/1_UHZNS1lE1Ydz6sXDyf2C2Q.jpg"
+                    alt="Bootstrap"
+                    width="52"
+                    height="52"
+                    class="rounded-circle border border-white pic"
+                  />
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <!-- <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg> -->
+                  <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 16 16"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="#FFFFFF"
+                    class="bi bi-geo-fill"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"
+                    />
+                  </svg>
+                  <small>Andromeda Galaxy</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <!-- <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg> -->
+                  <?xml version="1.0" encoding="iso-8859-1"?>
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                  <svg
+                    fill="#FFFFFF"
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    class="bi me-2"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 612 612"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M153,114.75h1.592c15.845,0,28.688-12.842,28.688-28.688V76.5V28.688C183.28,12.842,170.437,0,154.592,0H153
+                          c-15.845,0-28.688,12.842-28.688,28.688V76.5v9.562C124.312,101.908,137.155,114.75,153,114.75z"
+                        />
+                        <path
+                          d="M449.438,114.75h1.592c15.846,0,28.688-12.842,28.688-28.688V76.5V28.688C479.717,12.842,466.875,0,451.029,0h-1.592
+                          c-15.845,0-28.688,12.842-28.688,28.688V76.5v9.562C420.75,101.908,433.593,114.75,449.438,114.75z"
+                        />
+                        <path
+                          d="M535.5,76.5h-27.096v9.562c0,31.638-25.737,57.375-57.375,57.375h-1.592c-31.638,0-57.375-25.737-57.375-57.375V76.5
+                          H211.967v9.562c0,31.638-25.738,57.375-57.375,57.375H153c-31.638,0-57.375-25.737-57.375-57.375V76.5H76.5
+                          C34.253,76.5,0,110.753,0,153v382.5C0,577.747,34.253,612,76.5,612h459c42.247,0,76.5-34.253,76.5-76.5V153
+                          C612,110.753,577.747,76.5,535.5,76.5z M573.75,535.5c0,21.104-17.146,38.25-38.25,38.25h-459c-21.085,0-38.25-17.146-38.25-38.25
+                          v-306h535.5V535.5z"
+                        />
+                        <circle cx="153" cy="325.125" r="47.019" />
+                        <circle cx="306" cy="325.125" r="47.019" />
+                        <circle cx="459" cy="325.125" r="47.019" />
+                        <circle cx="153" cy="478.125" r="47.019" />
+                        <circle cx="306" cy="478.125" r="47.019" />
+                        <circle cx="459" cy="478.125" r="47.019" />
+                      </g>
+                    </g>
+                  </svg>
+                  <small>5d</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- pricing -->
+    <div class="container py-3">
+      <header>
+        <div
+          class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom"
+        ></div>
+
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+          <p class="fs-5 text-body-secondary">
+            We offer flexible pricing plans to suit every need
+          </p>
+        </div>
+      </header>
+
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $0<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 users included</li>
+                  <li>2 GB of storage</li>
+                  <li>Email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-outline-primary"
+                >
+                  Sign up for free
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $15<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>20 users included</li>
+                  <li>10 GB of storage</li>
+                  <li>Priority email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                  $29<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Contact us
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="display-6 text-center mb-4">Compare plans</h2>
+
+        <div class="table-responsive">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th style="width: 34%"></th>
+                <th style="width: 22%">Free</th>
+                <th style="width: 22%">Pro</th>
+                <th style="width: 22%">Enterprise</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Public</th>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Private</th>
+                <td></td>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+              </tr>
+            </tbody>
+
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Permissions</th>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Sharing</th>
+                <td></td>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Unlimited members</th>
+                <td></td>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Extra security</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <img
+                    src="assets/images/check-mark-line-icon.webp"
+                    class="bi"
+                    width="24"
+                    height="24"
+                    alt=""
+                  /><!-- <svg class="bi" width="24" height="24"><use xlink:href="#check"></use></svg> -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img
+              class="mb-2 kitty"
+              src="assets/images/images (1).png"
+              alt=""
+              width="32"
+              height="32"
+            />
+            <small class="d-block mb-3 text-body-secondary">© 2024</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Cool stuff</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Random feature</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Team feature</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Stuff for developers</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Another one</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Last time</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Resource</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Resource name</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Another resource</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Final resource</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#">Team</a>
+              </li>
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Locations</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Privacy</a
+                >
+              </li>
+              <li class="mb-1">
+                <a class="link-secondary text-decoration-none" href="#"
+                  >Terms</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
